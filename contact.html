@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Contacts</title>
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">S_sarick</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100005476212644"><img alt="" src="img/facebook.png"></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/s_sarick"><img alt="" src="img/instagram.png"></a>
+            </li>
+            <li>
+                <a href=""><img alt="" src="img/twitter.png"></a>
+            </li>
+        </ul>
+    </section>
+    <div id="navigation" class="navigation__contact">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            sec.classList.toggle('active')
+            var nav = document.getElementById('navigation');
+            nav.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
